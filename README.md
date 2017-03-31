@@ -1,4 +1,4 @@
-#INSTRUCTIONS
+# INSTRUCTIONS
 
 git clone https://github.com/fuchicar/dockerharvey.git
 
@@ -8,15 +8,15 @@ docker build -t harvey .
 
 docker run -ti harvey start
 
-##To run in background
+## To run in background
 
 docker run -d harvey start
 
-##To update harvey
+## To update harvey
 
 docker run -ti harvey update
 
 
-#NOTE:
+# NOTE:
 
 It doesn't work under Docker for macOS, I do not why
